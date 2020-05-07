@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViratKoheliProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_virat_koheli"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Virat Koheli"
+            app:titleTextColor="#fff"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/koheli_biography"
+                    android:scaleType="fitXY"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bio"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nick name:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chikoo"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Profession:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Indian Cricketer(Batsman)"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="Physical States &amp; More"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Height:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5 feet 9 inches"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Eye color:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dark Brown"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hair color:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Black"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Birth date:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="November 05,1988"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Birth place:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delhi,India"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Spouse:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Anushka Sharma"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Zodiac sign:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Scorpio"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="Early Life"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/virat_early_life"                        android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="Youth and domestic career"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/virat_domestic_career"
+                        android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="Ascension to ODI vice-captaincy"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/virat_captency"
+                        android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="Captaincy &amp; Vice Captaincy"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/virat_captency"                     android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="Setting Records"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/virat_records"                     android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        android:layout_marginBottom="10dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

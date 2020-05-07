@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RohitSharmaBiographyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_rohit_sharma"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Rohit Sharma"
+            app:titleTextColor="#fff"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/rohit_sharma_biography"
+                    android:scaleType="fitXY"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bio"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Full name:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rohit Gurunath Sharma"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nick name:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hitman,Ro,Shaana"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Profession:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Indian Cricketer(Batsman)"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Batting:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Right-handed"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bowling:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Right-arm off break"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="Physical States &amp; More"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Height:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5 feet 8 inches"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Eye color:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dark Brown"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hair color:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Black"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Birth date:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="April 30,1987"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Birth place:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bansod,Nagpur,Maharashtra,India"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Spouse:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ritika Sajdeh"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Zodiac sign:"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Taurus"
+                            android:textColor="#000"
+                            android:layout_marginLeft="03dp"
+                            />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="Early Life"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rohit_early_life"                        android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="Personal Life"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rohit_personal_life"                        android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="Youth and domestic career"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rohit_domestic_career"
+                        android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="International Career"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rohit_international_career"
+                        android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="T20 Career"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rohit_t20_career"                     android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="@color/line"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="05dp"
+                        android:text="Setting Records"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rohit_records"                     android:textColor="#000"
+                        android:layout_marginLeft="03dp"
+                        android:layout_marginBottom="10dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

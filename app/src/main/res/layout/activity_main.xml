@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indian_team"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Cricketers Profile"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/color_white"
+            android:background="@drawable/rounded_corner_bg"
+            >
+        </Button>
+        <Button
+            android:id="@+id/photo_galary_button"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Photo Galary"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:layout_below="@+id/profile_button"
+            android:textColor="@color/color_white"
+            android:background="@drawable/rounded_corner_bg"
+            >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>
